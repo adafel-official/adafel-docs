@@ -12,7 +12,7 @@ sidebar_position: 2
 |        **Currency Symbol**        |              ADFL              |
 | **Block Explorer URL (Optional)** |  https://explorer.adafel.com   |
 
-## Steps
+<!-- ## Steps
 
 Here are the main steps from the official [guide](https://support.metamask.io/hc/en-us/articles/360043227612-How-to-add-a-custom-network-RPC) provided by Metamask:
 
@@ -28,4 +28,4 @@ Here are the main steps from the official [guide](https://support.metamask.io/hc
 
 4. You should now see Adafel Testnet from the network dropdown menu on the upper right corner of Metamask:
 
-![Adafel Added](/img/docs/metamask-adafel-testnet.png)
+![Adafel Added](/img/docs/metamask-adafel-testnet.png) -->
