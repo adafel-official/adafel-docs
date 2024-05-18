@@ -1,6 +1,6 @@
 {
     "label": "Open Data Library",
-    "position": 2,
+    "position": 4,
     "link": {
       "type": "generated-index",
       "description": "SDK to Contribute, Extract and Compute onchain/offchain data to build AI models"
