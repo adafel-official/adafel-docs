@@ -18,14 +18,14 @@ Here are the main steps from the official [guide](https://support.metamask.io/hc
 
 1. From the homepage of your wallet, click on the network selector in the top left, and then on 'Add network':
 
-![Add Network](/img/docs/Metamask_add_network.gif)
+![Add Network](/img/docs/metamask-add-network.gif)
 
 2. MetaMask will open in a new tab in fullscreen mode. From here, find and the 'Add network manually' button at the bottom of the network list.
 
-![Add Details](/img/docs/Metamask_add_details.gif)
+![Add Details](/img/docs/metamask-add-details.gif)
 
 3. Complete the fields and click 'Save' to add the network.
 
 4. You should now see Adafel Testnet from the network dropdown menu on the upper right corner of Metamask:
 
-![Adafel Added](/img/docs/Metamask_adafel_testnet.png)
+![Adafel Added](/img/docs/metamask-adafel-testnet.png)
