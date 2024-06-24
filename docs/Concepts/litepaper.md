@@ -97,7 +97,7 @@ By integrating on-chain ML agents, DApps can become more autonomous, efficient, 
 
 ### 3. Galadriel
 
-- **Strengths:** Galadriel offers a comprehensive suite of AI development tools, including advanced analytics and machine learning capabilities. Its platform is designed for high customization and deep integration with enterprise systems.
+- **Strengths:** Galadriel offers a Trusted Execution Environment (TEE) setup for calling LLMs and multimodal models, including from closed-source API-providers. Its platform is designed for high customization and deep integration with enterprise systems.
 - **Weaknesses:** The complexity and cost of Galadriel’s solutions might be a barrier for smaller organizations or those with limited technical resources.
 
 Adafel holds a distinct advantage over its competitors due to its innovative integration of machine learning (ML) within the smart contract environment, which is specifically tailored for web3 use cases. This integration brings multiple competitive edges:
