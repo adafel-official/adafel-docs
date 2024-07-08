@@ -83,6 +83,31 @@ Adafel machine learning (ML) agents can significantly enhance the functionality 
 
 By integrating on-chain ML agents, DApps can become more autonomous, efficient, and capable of handling complex tasks that require real-time data analysis and decision-making.
 
+## Why can't we use LLM’s for this?
+
+LLMs are not suitable for big data computations such as machine learning because:
+
+### 1. Resource Limitations:
+
+- **Memory:** LLMs run in environments with limited memory, making it challenging to handle large datasets required for big data computations.
+- **Processing Power:** Training machine learning models on big data requires significant computational power, which is beyond the capabilities of typical environments where LLMs operate.
+
+### 2. Execution Time:
+
+- **Complexity and Duration:** Training complex machine learning models on large datasets can take hours, days, or even weeks. The execution time in LLM environments is typically constrained, making it impractical to run long-duration computations.
+
+### 3. Statelessness:
+
+- **No Persistent State:** LLMs do not maintain state between interactions, meaning they cannot remember or build upon previous computations. Big data tasks often require iterative processing and state persistence, which is not feasible in a stateless environment.
+
+### 4. Specialized Hardware Requirements:
+
+- **GPU/TPU Needs:** Efficient big data machine learning computations often require specialized hardware like GPUs or TPUs. LLM environments typically do not provide access to such hardware, limiting their ability to perform intensive computations.
+
+### 5. Environment Restrictions:
+
+- **Sandboxed Execution:** LLMs run in a sandboxed environment with restrictions on file access, network communication, and external library usage. Big data computations often rely on accessing large datasets from external sources and using specialized libraries, which may not be supported in a restricted environment.
+
 ## Competitor Analysis
 
 ### 1. Flock
