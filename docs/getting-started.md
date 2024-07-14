@@ -7,59 +7,33 @@ sidebar_position: 1
 ## Installation
 
 ```bash
-npm i @adafel/opendatalibrary-js-sdk
+npm i @adafel/adafel-solidity
 ```
 
 ## Quickstart
 
-- **Initialize the client instance**
+- **Training a linear regression model**
 
-```javascript
-// import dependencies and initialize client instance
-import { privateKeyToAccount } from 'viem/accounts';
-import { OpenDataLibrary, Category } from "@adafel/opendatalibrary-js-sdk";
-const privateKey = '0xabc'; // optional
+To train a model, call the appropriate training function with your data and labels. For example, to train a linear regression model:
 
-const client = new OpenDataLibrary({
-  account: privateKeyToAccount(privateKey), // optional
-});
+```bash
+// import dependencies
+import "@adafel/adafel-solidity/contracts/v0.1/MachineLearningLib.sol";
 
+int64[][] memory data = ...; // Your training data
+int64[] memory labels = ...; // Your training labels
+
+bytes memory model = MachineLearningLib.trainLinearRegression(data, labels);
 ```
 
-:::note
-If the private key is not supplied then sdk will use the provider from window.ethereum.
-:::
+- **Making Predictions**
 
-- **Create a new schema**
+To make predictions using a trained model, call the appropriate prediction function with your data and the trained model. For example, to make predictions using a trained linear regression model:
 
-```javascript
-await client.createSchema(
-  "demo schema",
-  ["col1", "col2", "col3"],
-  Category.Gaming
-);
+```bash
+int64[][] memory data = ...; // Your input data
 
-```
-
-`` Returns: transaction hash (type 0x${string}). ``
-- **Add user analytics**
-
-```javascript
-await client.addAnalytics(
-  "0x264f9...",
-  "demo schema",
-  ["columnName1", "columnName2", "columnName3"],
-  [1n, 2n, 3n] // adding sample data
-);
-```
-``Returns: transaction hash (type 0x${string}).``
-
-- **Getting all the collected data under a particular schema**
-
-```javascript
-await client.getSchemaData(
-  "demo schema",
-)
+int64[] memory predictions = MachineLearningLib.predictLinearRegression(data, model);
 ```
 
 #### Learn more about How Adafel works
