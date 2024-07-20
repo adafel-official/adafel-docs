@@ -110,17 +110,22 @@ LLMs are not suitable for big data computations such as machine learning because
 
 ## Competitor Analysis
 
-### 1. Flock
+### 1. Ritual
+
+- **Strengths:** Ritual enables the smart contracts to get predictions directly from the offchain models stored in Huggingface or Kaggle. It supports all the mainstream libraries like Tensorflow, Pytorch, etc.
+- **Weaknesses** Currently its an oracle which calls external trusted source for ML predictions and its focus on general purpose models does not contribute much to the Web3 ecosystem.
+
+### 2. Flock
 
 - **Strengths:** Flock excels in decentralized AI training and fine-tuning, leveraging federated learning to maintain data privacy while enabling collaborative model development. Its co-creation platform encourages community participation and integrates Retrieval-Augmented Generation (RAG) technology for enhanced domain-specific AI accuracy​
 - **Weaknesses:** While innovative, Flock.io’s focus on federated learning might limit its scalability compared to protocols with more generalized solutions.
 
-### 2. Ora
+### 3. Ora
 
 - **Strengths:** Ora is a verifiable LLM oracle built with optimistic ML is a cost-efficient and highly efficient machine learning framework to enable on chain machine learning. It facilitates creation of custom LLM oracle through Initial Model Offering (IMO)
 - **Weaknesses** opML comes at the cost of latency because every request has to wait for a challenge period where multiple validators check for result correctness and hence cannot be used for applications where the response speed is a critical aspect.
 
-### 3. Galadriel
+### 4. Galadriel
 
 - **Strengths:** Galadriel offers a Trusted Execution Environment (TEE) setup for calling LLMs and multimodal models, including from closed-source API-providers. Its platform is designed for high customization and deep integration with enterprise systems.
 - **Weaknesses:** The complexity and cost of Galadriel’s solutions might be a barrier for smaller organizations or those with limited technical resources.
