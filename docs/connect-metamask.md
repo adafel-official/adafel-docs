@@ -8,7 +8,7 @@ sidebar_position: 2
 | :-------------------------------: | :----------------------------: |
 |         **Network Name**          |         Adafel Testnet         |
 |          **New RPC URL**          | https://testnet-rpc.adafel.com |
-|           **Chain ID**            |        1849857664505656        |
+|           **Chain ID**            |        3995596960668836        |
 |        **Currency Symbol**        |              ADFL              |
 | **Block Explorer URL (Optional)** |  https://explorer.adafel.com   |
 
